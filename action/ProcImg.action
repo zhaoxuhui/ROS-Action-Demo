@@ -1,0 +1,10 @@
+# 定义goal，传入的是待处理的图像路径
+string img_path
+---
+# 定义result，传出的是处理后的图像数据以及宽高
+uint8[] processed_img
+uint32 img_width
+uint32 img_height
+---
+# 定义feedback，完成百分比
+float32 complete_percent
